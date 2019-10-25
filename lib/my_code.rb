@@ -53,6 +53,7 @@ def reduce_to_all_true(array)
   counter=0
   while counter< array.length
     #return false if nil
+  return false if !array[counter]
     counter +=1
   end
 return true
