@@ -57,6 +57,7 @@ def reduce_to_all_true(array)
   end
 return true
 end
+array[counter]
 
 def reduce_to_any_true(array)
   counter=0
